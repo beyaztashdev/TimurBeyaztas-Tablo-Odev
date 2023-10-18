@@ -1,0 +1,63 @@
+body {
+  background-color: #F9F9F9;
+}
+
+.container {
+  margin: 10px auto;
+  max-width: 1049px;
+  background-color: white;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+th, td {
+  padding: 40px 50px;
+}
+
+.grey {
+  background-color: rgb(230, 230, 230);
+}
+
+tr td:first-child {
+  font-weight: 700;
+}
+
+.green {
+  background-color: #5A975D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #CD4248;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: #F3C74B;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
